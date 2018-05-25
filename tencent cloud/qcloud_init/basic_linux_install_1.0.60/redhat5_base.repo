@@ -1,0 +1,49 @@
+[os]
+name=Qcloud redhat os - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/os/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+[updates]
+name=Qcloud redhat updates - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/updates/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+[centosplus]
+name=Qcloud redhat centosplus - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/centosplus/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+[contrib]
+name=Qcloud redhat contrib - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/contrib/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+[cr]
+name=Qcloud redhat cr - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/cr/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+[extras]
+name=Qcloud redhat extras - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/extras/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+
+[fasttrack]
+name=Qcloud redhat fasttrack - $basearch
+baseurl=http://mirrors.tencentyun.com/redhat/5Server/fasttrack/$basearch/
+enabled=1
+gpgcheck=1
+file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-5
+

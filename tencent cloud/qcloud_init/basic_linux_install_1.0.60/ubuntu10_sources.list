@@ -1,0 +1,9 @@
+# 10.04 LTS 
+deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid main restricted universe multiverse
+deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid-updates main restricted universe multiverse
+deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid-security main restricted universe multiverse
+deb-src http://mirrors.tencentyun.com/old-archives/ubuntu lucid-backports main restricted universe multiverse
+deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid main restricted universe multiverse
+deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid-updates main restricted universe multiverse
+deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid-security main restricted universe multiverse
+deb http://mirrors.tencentyun.com/old-archives/ubuntu lucid-backports main restricted universe multiverse

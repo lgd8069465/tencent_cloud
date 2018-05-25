@@ -1,0 +1,49 @@
+[os]
+name=Qcloud centos os - $basearch
+baseurl=http://mirrors.tencentyun.com/centos/$releasever/os/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+[updates]
+name=Qcloud centos updates - $basearch
+baseurl=http://mirrors.tencentyun.com/centos/$releasever/updates/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+#[centosplus]
+#name=Qcloud centosplus - $basearch
+#baseurl=http://mirrors.tencentyun.com/centos/$releasever/centosplus/$basearch/
+#enabled=1
+#gpgcheck=1
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+#[contrib]
+#name=Qcloud centos contrib - $basearch
+#baseurl=http://mirrors.tencentyun.com/centos/$releasever/contrib/$basearch/
+#enabled=1
+#gpgcheck=1
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+#[cr]
+#name=Qcloud centos cr - $basearch
+#baseurl=http://mirrors.tencentyun.com/centos/$releasever/cr/$basearch/
+#enabled=1
+#gpgcheck=1
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+[extras]
+name=Qcloud centos extras - $basearch
+baseurl=http://mirrors.tencentyun.com/centos/$releasever/extras/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+
+#[fasttrack]
+#name=Qcloud centos fasttrack - $basearch
+#baseurl=http://mirrors.tencentyun.com/centos/$releasever/fasttrack/$basearch/
+#enabled=1
+#gpgcheck=1
+#gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+

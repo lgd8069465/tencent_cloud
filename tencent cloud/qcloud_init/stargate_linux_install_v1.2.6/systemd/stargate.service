@@ -1,0 +1,13 @@
+[Unit]
+Description=QCloud Stargate Manager
+
+[Service]
+Type=forking
+PIDFile=/var/run/stargate.tencentyun.pid
+ExecStartPre=/bin/rm -f /var/run/stargate.tencentyun.pid
+ExecStart=/usr/bin/sh -c '/var/lib/qcloud/stargate/admin/start.sh'
+ExecStop=/usr/bin/sh -c '/var/lib/qcloud/stargate/admin/stop.sh'
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

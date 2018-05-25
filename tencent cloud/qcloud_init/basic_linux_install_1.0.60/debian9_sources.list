@@ -1,0 +1,11 @@
+deb http://mirrors.tencentyun.com/debian stretch main contrib non-free
+deb http://mirrors.tencentyun.com/debian stretch-updates main contrib non-free
+deb http://mirrors.tencentyun.com/debian-security stretch/updates main
+#deb http://mirrors.tencentyun.com/debian stretch-backports main contrib non-free
+#deb http://mirrors.tencentyun.com/debian stretch-proposed-updates main contrib non-free
+
+deb-src http://mirrors.tencentyun.com/debian stretch main contrib non-free
+deb-src http://mirrors.tencentyun.com/debian stretch-updates main contrib non-free
+deb-src http://mirrors.tencentyun.com/debian-security stretch/updates main
+#deb-src http://mirrors.tencentyun.com/debian stretch-backports main contrib non-free
+#deb-src http://mirrors.tencentyun.com/debian stretch-proposed-updates main contrib non-free

@@ -1,0 +1,9 @@
+# ttyS0 - agetty
+#
+# This service maintains a agetty on ttyS0.
+
+stop on runlevel [S016]
+start on runlevel [12345]
+
+respawn
+exec agetty -h -L -w /dev/ttyS0 115200 vt102

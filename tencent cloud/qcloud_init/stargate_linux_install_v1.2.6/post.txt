@@ -1,0 +1,26 @@
+{
+  "version" : "1.0",
+  "caller" : "ContentTest",
+  "password":"ContentTest",
+  "callee" : "AtlasImage",
+  "timestamp" : __timestamp__,
+  "flowid": "",
+  "interface" :
+  { 
+    "interfaceName" : "Component.UpdateStatus",
+    "para":
+    [
+      {
+        "uuid" : "__uuid__",
+"component" : "stargate_linux_install",
+        "ip" : "__ip__",
+        "status" : __status__,
+        "log" : "__log__",
+        "failList" :
+          [ 
+            __result__
+          ]
+       }
+    ]
+  }
+}

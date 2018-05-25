@@ -1,0 +1,8 @@
+[repo-oss]
+name=openSUSE-12.3-Oss
+enabled=1
+autorefresh=1
+baseurl=http://mirrors.tencentyun.com/opensuse/distribution/12.3/repo/oss/
+path=/
+type=NONE
+keeppackages=0
